@@ -1,0 +1,3109 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    }
+    .container{
+        width: 1519px;
+        height: 683px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D7A81;
+    background-image: url(../images/hero.png);
+    background-size:2100px;
+    background-repeat: no-repeat;
+    background-position:-275px 190px;
+    padding: 48px 0px;
+}
+.container header{
+    width: 1328px;
+    height: 539px;
+    margin: 24px 95px;
+    padding: 48px 16px;
+}
+.container header .incontain{
+    width: 630px;
+    height: 443px;
+    padding: 48px 0px ;
+    margin: 0px 333px;
+}
+.container header .incontain .heading{
+    width: 630px;
+    height: 134px;
+    margin-bottom: 48px;
+    padding-left: 50px;
+}
+.container header .incontain .heading h1{
+    font-family:"Inter Tight", sans-serif;
+font-size: 56px;
+font-weight:bold;
+line-height: 67.2px;
+color: #FFFFFF;
+text-indent: 50px;
+/* margin-bottom: 30px; */
+}
+.container header .incontain .search-bar{
+display: inline-block;
+background-color: white;
+border-radius: 20px;
+justify-content: center;
+width: 630px;
+height: 73px;
+padding: 8px;
+margin-bottom: 48px;
+}
+.container header .incontain .search-bar .fa-magnifying-glass{
+color:rgb(51,61,76);
+font-size: 20px;
+margin: 10px;
+}
+#input1{
+border: none;
+margin-right: 20px;
+}
+.fa-location-dot{
+color:rgb(51,61,76);
+font-size: 20px;
+margin: 10px;
+}
+#input2{
+/* background-image: url(../images/location.png);
+background-size: 40px;
+background-repeat: no-repeat;
+padding: 20px 50px; */
+border: none;
+
+}
+button{
+width: 102px;
+height: 47px;
+background-color: rgb(216,81,81);
+color: white;
+border-radius: 10px;
+border: none;
+padding: 15px;
+margin: 5px 10px 10px 65px;
+}
+button:hover{
+background-color: rgb(162, 40, 40);
+cursor: pointer;
+}
+.container header .incontain .categories{
+display: inline-block;
+justify-content: center;
+width: 630px;
+height: 43px;
+/* padding: 50px; */
+margin: 5px;
+}
+.container header .incontain .categories .b1{
+width: 111px;
+height: 39px;
+padding: 5px 15px;
+border: 3px solid white;
+border-radius: 30px;
+color: white;
+margin: 4px 11px 0px 0px;
+}
+.container header .incontain .categories .b1:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+}
+
+/* ---------------first page media -----------*/
+
+@media (max-width: 500px) {
+    .container{
+        width: 500px;
+        height:554px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D7A81;
+    background-image: none;
+    /* background-size:2100px; */
+    /* background-repeat: no-repeat; */
+    /* background-position:-275px 190px; */
+    padding: 48px 0px;
+}
+.container header{
+    width: 499px;
+    height: 554px;
+    margin: 10px 20px;
+    padding: 24px 16px;
+}
+.container header .incontain{
+    width: 487px;
+    height: 450px;
+    margin: 0px 12px;
+    padding: 20px 16px;
+}
+.container header .incontain .heading{
+    width: 487px;
+    height: 97px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    padding-left: 30px;
+}
+.container header .incontain .heading h1{
+    font-family:"Inter Tight", sans-serif;
+font-size: 37px;
+font-weight:bold;
+line-height: 42px;
+color: #FFFFFF;
+text-indent: 10px;
+/* margin-bottom: 30px; */
+}
+.container header .incontain .search-bar{
+display: inline-block;
+background-color: white;
+border-radius: 20px;
+justify-content: center;
+width: 420px;
+height:180px;
+padding: 8px;
+margin-bottom: 10px;
+}
+    #input1{
+    border: none;
+    margin-right: 170px;
+    }
+    button{
+        width: 380px;
+        height: 47px;
+        background-color: rgb(216,81,81);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin: 14px 8px;
+        font-size: 18px;
+        }
+    .container header .incontain .categories{
+            display: inline-block;
+            justify-content: center;
+            width: 443px;
+            height: 103px;
+            /* padding: 50px; */
+            margin: 5px;
+            }
+    .container header .incontain .categories .b1{
+            width: 125px;
+            height: 39px;
+            padding: 5px 20px;
+            border: 3px solid white;
+            border-radius: 30px;
+            color: white;
+            margin: 14px 10px 0px 0px;
+            }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .container{
+        width: 500px;
+        height:529px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D7A81;
+    background-image: none;
+    /* background-size:2100px; */
+    /* background-repeat: no-repeat; */
+    /* background-position:-275px 190px; */
+    padding: 48px 0px;
+}
+.container header{
+    width: 500px;
+    height: 529px;
+    margin: 10px 20px;
+    padding: 24px 12px;
+}
+.container header .incontain{
+    width: 475px;
+    height: 433px;
+    margin: 0px 12px;
+    padding: 0px 16px;
+}
+.container header .incontain .heading{
+    width: 443px;
+    height: 97px;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+}
+.container header .incontain .heading h1{
+    font-family:"Inter Tight", sans-serif;
+font-size: 37px;
+font-weight:bold;
+line-height: 44.5px;
+color: #FFFFFF;
+text-indent: 20px;
+/* margin-bottom: 30px; */
+}
+.container header .incontain .search-bar{
+display: inline-block;
+background-color: white;
+border-radius: 20px;
+justify-content: center;
+width: 443px;
+height: 137px;
+padding: 8px;
+margin-bottom: 24px;
+}
+.container header .incontain .search-bar .fa-magnifying-glass{
+    color:rgb(51,61,76);
+    font-size: 20px;
+    margin: 5px;
+    }
+    #input1{
+    border: none;
+    margin-right: 10px;
+    }
+    button{
+        width: 417px;
+        height: 47px;
+        background-color: rgb(216,81,81);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        margin: 14px 8px;
+        }
+        .container header .incontain .categories{
+            display: inline-block;
+            justify-content: center;
+            width: 443px;
+            height: 103px;
+            /* padding: 50px; */
+            margin: 5px;
+            }
+            .container header .incontain .categories .b1{
+            width: 131px;
+            height: 39px;
+            padding: 10px 25px;
+            border: 3px solid white;
+            border-radius: 30px;
+            color: white;
+            margin: 14px 14px 0px 0px;
+            }
+}
+
+
+/* second page */
+main{
+    justify-content: center;
+    margin: 50px;
+    padding: 40px;
+    width: 1400px;
+    height: 496.8px;
+}
+main h3{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 40px;
+    font-weight: 400px;
+    line-height: 24px;
+    display: inline-block;
+}
+main h4{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(67, 69, 72);
+    font-size: 16px;
+    font-weight:100px;
+    line-height: 24px;
+    display: inline-block;
+    float: right;
+}
+.clear{
+    content: "";
+    clear: both;
+}
+main h4:hover{
+    text-decoration:underline;
+}
+main h4::after{
+    content: ">";
+    padding: 8px;
+    
+}
+
+.sectioncontainer1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 80px;
+    
+
+}
+main .sectioncontainer1 section{
+            width: 25%;
+            /* flex-basis: 25%; */
+            /* flex-wrap: wrap; */
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+}
+.img{
+    background-color: rgb(236, 240, 245);
+    width: 50px;
+    border-radius: 22px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.img:hover{
+    cursor: pointer;
+    width: 51px;
+}
+main a{
+    font-family:"Inter Tight", sans-serif ;
+    color:black;
+    text-decoration: none;
+    padding: 5px;
+}
+main a:hover{
+    text-decoration:underline;
+}
+
+/* ---------------second page media -----------*/
+
+@media (max-width: 500px) {
+    main{
+        margin: 50px 20px;
+        padding: 8px 16px 48px 12px ;
+        width: 499px;
+        height: 1008px;
+    }
+    main h3{
+        font-family: "Inter Tight", sans-serif;
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: inline-block;
+    }
+    main h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(67, 69, 72);
+        font-size: 12px;
+        font-weight:100px;
+        line-height: 20px;
+    }
+    .sectioncontainer1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        position: relative;
+        top:-70px;
+    }
+    main .sectioncontainer1 section{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        
+        }
+    .img{
+    background-color: rgb(236, 240, 245);
+    width: 40px;
+    border-radius: 20px;
+    padding: 8px;
+    display: inline-block;
+    }
+    .img:hover{
+    cursor: pointer;
+    width: 41px;
+    }
+    main a{
+    font-family:"Inter Tight", sans-serif ;
+    color:black;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 14px;
+    }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+    main{
+        margin: 20px 12px;
+        padding: 16px 16px 48px 20px ;
+        width: 475px;
+        height: 632px;
+    }
+    main h3{
+        font-family: "Inter Tight", sans-serif;
+        font-size: 25px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: inline-block;
+    }
+    main h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(67, 69, 72);
+        font-size: 16px;
+        font-weight:100px;
+        line-height: 24px;
+        display: inline-block;
+        float: right;
+    }
+    .clear{
+        content: "";
+        clear: both;
+    }
+    .sectioncontainer1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 80px 0px ;
+    }
+    main .sectioncontainer1 section{
+        width: 50%;
+        /* flex-basis: 25%; */
+        /* flex-wrap: wrap; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+        }
+        .img{
+        background-color: rgb(236, 240, 245);
+        width: 40px;
+        border-radius: 20px;
+        padding: 10px;
+        display: inline-block;
+        }
+        .img:hover{
+        cursor: pointer;
+        width: 31px;
+        }
+        main a{
+        font-family:"Inter Tight", sans-serif ;
+        color:black;
+        text-decoration: none;
+        padding: 5px;
+        }
+        }
+
+/* third page */
+.home{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin-top:0px;
+}
+.homesection{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(238,241,246);
+    border-radius: 10px;
+    width: 22%;
+    height: 468.8px ;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 110px;
+    cursor: pointer;
+    
+}
+.p1{
+    font-family: "Inter Tight", sans-serif ;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(17,24,39);
+    line-height: 36.4px;
+    padding: 20px 20px 0px 20px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.p2{
+    font-family: "Inter Tight", sans-serif ;
+    color: rgb(116,122,133);
+    font-size: 11px;
+    font-weight: 800px;
+    line-height: 32px;
+    padding: 0px 50px;
+    margin-top: 0px;
+    display: inline-block;
+
+}
+.homeimg{
+    background-color: rgb(247,248,251);
+    display: inline-block;
+    width: 430px;
+    margin: 10px -150px 0px 20px;
+    padding: 20px 10px 0px 20px;
+    border-radius: 200px;
+}
+.besidehome{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin-top: 50px;
+}
+.besidehome .p3{
+    font-family: "Inter Tight", sans-serif ;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(17,24,39);
+    line-height: 40px;
+    padding:10px ;
+    margin: 20px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 70px;
+    
+}
+.besidehome .pv{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(67, 69, 72);
+    font-size: 16px;
+    font-weight:100px;
+    line-height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 41px;
+    right:0px;
+    
+}
+/* .clear1{
+    content: "";
+    clear: both;
+} */
+.besidehome .pv:hover{
+    text-decoration:underline;
+}
+.besidehome .pv::after{
+    content: ">";
+    padding: 8px;
+    
+}
+/* .besidehome{
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    justify-content: center;
+    width: 25%;
+} */
+.besidehome .projectimages{
+    width: 850px;
+    height: 336px;
+    display: flex;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.besidehome .projectimages .project1{
+    width: 420px;
+    height: 88px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    padding: 12px;
+}
+.besidehome .projectimages .project1 a .imagesection{
+    width:110px;
+    height: 80px;
+    border-radius: 20px;
+    display: inline-block;
+    
+
+}
+.besidehome .projectimages .project1 a .imagesection:hover{
+    width:115px;
+    height: 80px;
+    cursor: pointer;
+
+}
+.besidehome .projectimages .project1 a{
+    text-decoration: none;
+    font-family: "Inter Tight", sans-serif ;
+    font-size: 16px;
+    font-weight: 600px;
+    color: rgb(17,24,39);
+    /* line-height: 28px; */
+    padding:6px ;
+    margin: 0px;
+    justify-items: center;
+
+}
+.besidehome .projectimages .project1 a:hover{
+    text-decoration:underline;
+
+}
+.besidehome .projectimages .project1 .p4,.p5{
+    font-family: "Inter Tight", sans-serif ;
+    font-size: 10px;
+    font-weight: 600px;
+    color: rgb(17,24,115);
+    line-height: 28px;
+    padding:0px ;
+    margin:0px;
+    display: inline-block;
+    justify-items: center;
+    position: relative;
+    top: 40px;
+    right: 120px;
+    
+}
+.besidehome .projectimages .project1 .p6,.p7{
+    font-family: "Inter Tight", sans-serif ;
+    font-size: 10px;
+    font-weight: 600px;
+    color: rgb(17,24,115);
+    line-height: 28px;
+    padding:0px ;
+    margin:0px;
+    display: inline-block;
+    justify-items: center;
+    position: relative;
+    top:40px;
+    right: 80px;
+    
+}
+.fa-star{
+    font-size: 15px;
+    color: rgb(252,146,49);
+}
+
+/* ---------------third page media -----------*/
+
+@media (max-width: 500px) {
+    .home{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    position: relative;
+    top: -150px;
+    
+    }
+    .homesection{
+        display: none;
+            
+        }
+
+        .besidehome{
+            display: flex;
+            flex-flow: column wrap;
+            position: relative;
+            margin-top: 0px;
+            width: 491px;
+            height: 704px;
+            margin: 0px ;
+            padding: 0px ;
+        }
+        .besidehome .p3{
+            font-family: "Inter Tight", sans-serif ;
+            font-size: 18px;
+            font-weight: bold;
+            color: rgb(17,24,39);
+            line-height: 32px;
+            padding:10px ;
+            margin: 10px;
+            text-align: right;
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            
+        }
+        .besidehome .pv{
+            font-family: "Inter Tight", sans-serif;
+            color: rgb(67, 69, 72);
+            font-size: 14px;
+            font-weight:100px;
+            line-height: 24px;
+            display: inline-block;
+            position: absolute;
+            top: 25px;
+            right:10px;
+            
+        }
+        .besidehome .projectimages{
+            width: 491px;
+            height: 650px;
+            display: flex;
+            flex-flow: row wrap;
+            position: absolute;
+            top: 70px;
+            left: 20px;
+        }
+        .besidehome .projectimages .project1{
+            width: 100%;
+            /* height: 30px; */
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+            padding:0px;
+        }
+        .besidehome .projectimages .project1 a .imagesection{
+            width:80px;
+            height: 60px;
+            border-radius: 20px;
+            display: inline-block;
+            
+        }
+        .besidehome .projectimages .project1 a{
+            text-decoration: none;
+            font-family: "Inter Tight", sans-serif ;
+            font-size: 14px;
+            font-weight: 600px;
+            color: rgb(17,24,39);
+            /* line-height: 28px; */
+            padding:8px ;
+            margin: 0px;
+            justify-items: center;
+        
+        }
+        .besidehome .projectimages .project1 .p4,.p5{
+            font-family: "Inter Tight", sans-serif ;
+            font-size: 10px;
+            font-weight: 600px;
+            color: rgb(17,24,115);
+            line-height: 28px;
+            padding:0px ;
+            margin:0px;
+            display: inline-block;
+            justify-items: center;
+            position: relative;
+            top: 30px;
+            right: 110px;
+            
+        }
+        .besidehome .projectimages .project1 .p6,.p7{
+            font-family: "Inter Tight", sans-serif ;
+            font-size: 10px;
+            font-weight: 600px;
+            color: rgb(17,24,115);
+            line-height: 28px;
+            padding:0px ;
+            margin:0px;
+            display: inline-block;
+            justify-items: center;
+            position: relative;
+            top:30px;
+            right: 90px;
+            
+        }
+        .fa-star{
+            font-size: 12px;
+            color: rgb(252,146,49);
+        }
+
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .home{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+        
+    }
+    .homesection{
+    display: none;
+        
+    }
+    .besidehome{
+        display: flex;
+        flex-flow: row wrap;
+        position: relative;
+        margin-top: 0px;
+        width: 475px;
+        height: 504px;
+        margin: 0px 5px;
+        padding: 16px 16px 20px 16px;
+    }
+    .besidehome .p3{
+        font-family: "Inter Tight", sans-serif ;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(17,24,39);
+        line-height: 32px;
+        padding:10px ;
+        margin: 20px;
+        text-align: right;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        left:10px;
+        
+    }
+    .besidehome .pv{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(67, 69, 72);
+        font-size: 16px;
+        font-weight:100px;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 41px;
+        right:0px;
+         
+    }
+    .besidehome .projectimages{
+        width: 467px;
+        height: 408px;
+        display: flex;
+        flex-flow: row wrap;
+        position: absolute;
+        top: 70px;
+        left: 40px;
+    }
+    .besidehome .projectimages .project1{
+        width:50%;
+        /* height: 204px; */
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        /* margin-top: 24px;
+        padding: 12px; */
+    }
+    .besidehome .projectimages .project1 a .imagesection{
+        width:110px;
+        height: 80px;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        left:0px;
+        top:0px;
+    }
+    .besidehome .projectimages .project1 a .imagesection:hover{
+        width:115px;
+        height: 80px;
+        cursor: pointer;
+    
+    }
+    .besidehome .projectimages .project1 a{
+        text-decoration: none;
+        font-family: "Inter Tight", sans-serif ;
+        font-size: 18px;
+        font-weight: 600px;
+        color: rgb(17,24,39);
+        /* line-height: 28px; */
+        padding:6px ;
+        margin: 0px;
+        justify-items: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+    
+    }
+    .besidehome .projectimages .project1 .p4,.p5{
+        font-family: "Inter Tight", sans-serif ;
+        font-size: 12px;
+        font-weight: 600px;
+        color: rgb(17,24,115);
+        line-height: 28px;
+        padding:0px ;
+        margin:0px;
+        display: inline-block;
+        justify-items: center;
+        position: relative;
+        top:20px;
+        left: 90px;
+        
+    }
+    .besidehome .projectimages .project1 .p6,.p7{
+        font-family: "Inter Tight", sans-serif ;
+        font-size: 12px;
+        font-weight: 600px;
+        color: rgb(17,24,115);
+        line-height: 28px;
+        padding:0px ;
+        margin:0px;
+        display: inline-block;
+        justify-items: center;
+        position: relative;
+        top:20px;
+        left: 100px;
+        
+    }
+}
+
+/* fourth page */
+
+.servicebook{
+    width: 1328px;
+    height: 576px;
+    margin: 16px 96px;
+    padding: 48px 16px;
+
+}
+.servicebook .servicetext {
+    width: 1296px;
+    height:56px;
+    padding-bottom: 16px;
+    position: relative;
+}
+.servicebook .servicetext h3{
+    width: 347px;
+    height: 40px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 30px;
+    font-weight: 90px;
+    line-height: 24px;
+    display: inline-block;
+}
+.servicebook .servicetext h4{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(67, 69, 72);
+    font-size: 16px;
+    font-weight:50px;
+    line-height: 24px;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    right: 22px;
+    bottom: 28px;
+}
+.servicebook .servicetext h4:hover{
+    text-decoration:underline;
+}
+.servicebook .servicetext h4::after{
+    content: ">";
+    padding: 5px;
+    
+}
+.servicebook .servicepicture{
+    width: 1296px;
+    height: 400px;
+    margin-top: 20px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.servicebook .servicepicture .grid1{
+    /* background-image:url(../images/01.jpg) ;
+    background-size: 400px;
+    background-repeat: no-repeat; */
+    width: 415.2px;
+    height: 348.8px;
+    background-color: white;
+    border: 2px solid rgb(229,229,229);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 8px;
+    position: relative;
+}
+.servicebook .servicepicture .grid1 .ser1:hover{
+    width: 415px;
+    /* transform: scale(1.1);  */
+}
+.servicebook .servicepicture .grid1 h2{
+    position: absolute;
+    top: 240px;
+    left: 11px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    z-index: 500px;
+}
+.servicebook .servicepicture .grid1 .cap1{
+    display: inline-block;
+    color:rgb(65,74,88);
+    margin: 10px 20px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+}
+.servicebook .servicepicture .grid1 .cap1 span{
+    color: rgb(129,134,145);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin: 5px 10px 5px 5px;
+    
+}
+#book1{
+    width: 90px;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30,40,54);
+    border: 1px solid rgb(29,39,53);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 5px 17px 17px 103px;
+}
+#book1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(30,40,54);
+}
+
+
+  /* ---------------fourth page media -----------*/
+
+@media (max-width: 500px) {
+    .servicebook{
+        width: 480px;
+        height: 554px;
+        margin: 12px 0px;
+        padding: 8px 16px;
+        position: relative;
+        top: -80px;
+    }
+    .servicebook .servicetext {
+        width: 470px;
+        height:48px;
+        padding-bottom: 20px;
+        position: relative;
+    }
+    .servicebook .servicetext h3{
+        width: 347px;
+        height: 40px;
+        font-family: "Inter Tight", sans-serif;
+        font-size: 20px;
+        font-weight: 90px;
+        line-height: 32px;
+        display: inline-block;
+    }
+    .servicebook .servicetext h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(67, 69, 72);
+        font-size: 14px;
+        font-weight:50px;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        right: 22px;
+        bottom: 28px;
+    }
+    .servicebook .servicepicture{
+        margin-top: 5px;
+        padding-bottom: 48px;
+        display: flex;
+        width: 100%;
+        flex-flow: row nowrap;
+        overflow: hidden;
+        
+    }
+    .servicebook .servicepicture .grid1{
+        /* background-image:url(../images/01.jpg) ;
+        background-size: 400px;
+        background-repeat: no-repeat; */
+        background-color: white;
+        border: 2px solid rgb(229,229,229);
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #book1{
+        width: 110px;
+        height: 39px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(30,40,54);
+        border: 1px solid rgb(29,39,53);
+        border-radius: 10px;
+        padding: 10px 10px;
+        margin: 5px 17px 17px 80px;
+    }
+    
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .servicebook{
+        width: 475px;
+        height: 554px;
+        margin: 12px 0px;
+        padding:16px;
+    
+    }
+    .servicebook .servicetext {
+        width: 443px;
+        height:48px;
+        padding-bottom: 16px;
+        position: relative;
+    }
+    .servicebook .servicetext h3{
+        width: 347px;
+        height: 40px;
+        font-family: "Inter Tight", sans-serif;
+        font-size: 26px;
+        font-weight: 90px;
+        line-height: 32px;
+        display: inline-block;
+    }
+    .servicebook .servicetext h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(67, 69, 72);
+        font-size: 16px;
+        font-weight:50px;
+        line-height: 24px;
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        right: 22px;
+        bottom: 28px;
+    }
+    .servicebook .servicepicture{
+        margin-top: 20px;
+        padding-bottom: 48px;
+        display: flex;
+        width: 100%;
+        flex-flow: row nowrap;
+        overflow: hidden;
+        
+    }
+    .servicebook .servicepicture .grid1{
+        /* background-image:url(../images/01.jpg) ;
+        background-size: 400px;
+        background-repeat: no-repeat; */
+        background-color: white;
+        border: 2px solid rgb(229,229,229);
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 8px;
+        position: relative;
+    }
+}
+
+/* fifth page */
+
+.next{
+    width: 1519px;
+    height: 638px;
+    background-color: rgb(244,246,249);
+    margin-top: 0px;
+}
+.next .expertsection{
+    width: 1328px;
+    height: 526px;
+    margin: 30px 96px 16px 95px;
+    padding: 48px 16px;
+}
+.next .expertsection .experttext{
+    width: 1296px;
+    height: 56px;
+    padding-bottom: 16px;
+    position: relative;
+}
+.next .expertsection .experttext h3{
+    width: 212px;
+    height: 40px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 30px;
+    font-weight: 90px;
+    line-height: 24px;
+    display: inline-block;
+}
+.next .expertsection .experttext h4{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(67, 69, 72);
+    font-size: 16px;
+    font-weight:50px;
+    line-height: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 4px;
+}
+.next .expertsection .experttext h4:hover{
+    text-decoration:underline;
+}
+.next .expertsection .experttext h4::after{
+    content: ">";
+    padding: 5px;
+    
+}
+.next .expertsection .expertpictures{
+    width: 1320px;
+    margin-top: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+}
+.next .expertsection .expertpictures .expert1{
+    width: 660px;
+    height: 151px;
+    padding: 0px 12px 0px ;
+    margin: 24px 0px;
+}
+.next .expertsection .expertpictures .expert1 .pic1{
+    width: 129.6px;
+    margin-left: 12px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.next .expertsection .expertpictures .expert1 .pic1:hover{
+    /* width: 131px; */
+    padding: 2px;
+    
+}
+.next .expertsection .expertpictures .expert1 .discription{
+    width: 506px;
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    justify-content: center;
+}
+.next .expertsection .expertpictures .expert1 .discription h6,dl,span{
+display: inline-block;
+}
+.next .expertsection .expertpictures .expert1 .discription h6{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(62,39,53);
+    background-color: rgb(238,241,246);
+    border: 1px solid  rgb(238,241,246);
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight:50px;
+    line-height: 24px;
+}
+.next .expertsection .expertpictures .expert1 .discription  .tit {
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(17,24,39);
+    font-size: 16px;
+    font-weight:50px;
+    line-height: 24px;
+    margin: 8px 0px;
+}
+.next .expertsection .expertpictures .expert1 .discription  .tit:hover{
+    text-decoration:underline;
+}
+.next .expertsection .expertpictures .expert1 .discription .dis {
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(70, 57, 66);
+    font-size: 16px;
+    font-weight:50px;
+    line-height: 24px;
+    margin: 8px 0px;
+
+}
+.next .expertsection .expertpictures .expert1 .discription .sp{
+    color: rgb(108,114,127);
+}
+  /* ---------------fifth page media -----------*/
+
+  @media (max-width: 500px) {
+    .next{
+        width:499px;
+        height: 1061px;
+        background-color: rgb(244,246,249);
+        margin-top: 0px;
+    }
+    .next .expertsection{
+        width: 475px;
+        height: 1184px;
+        margin: 0px 12px;
+        padding: 48px 16px;
+    }
+    .next .expertsection .experttext{
+        width: 467px;
+        height: 48px;
+        padding-bottom: 16px;
+        position: relative;
+    }
+    .next .expertsection .experttext h3{
+        width: 170px;
+        height: 32px;
+        font-family: "Inter Tight", sans-serif;
+        font-size: 20px;
+        font-weight: 90px;
+        line-height: 24px;
+        display: inline-block;
+    }
+    .next .expertsection .expertpictures{
+        width:467px;
+        margin-top: 0px;
+        display: flex;
+        flex-flow: row wrap;
+        cursor: pointer;
+    }
+    .next .expertsection .expertpictures .expert1{
+        width: 450px;
+        height: 226px;
+        padding: 0px 0px 0px ;
+        margin: 10px 0px;
+    }
+    .next .expertsection .expertpictures .expert1 .pic1{
+        width: 100px;
+        margin-left: 12px;
+        border-radius: 10px;
+        display: inline-block;
+        
+    }
+    .next .expertsection .expertpictures .expert1 .discription{
+        width:320px;
+        margin-left: 5px;
+        display: inline-block;
+        position: absolute;
+        padding: 10px;
+        justify-content: center;
+    }
+    .next .expertsection .expertpictures .expert1 .discription  .tit {
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(17,24,39);
+        font-size:18px;
+        font-weight:400px;
+        line-height:27px;
+        margin: 8px 0px;
+    }
+    .next .expertsection .expertpictures .expert1 .discription .dis {
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(70, 57, 66);
+        font-size: 16px;
+        font-weight:50px;
+        line-height: 24px;
+        margin: 8px 0px;
+    
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .next{
+    width: 475px;
+    height: 1184px;
+    background-color: rgb(244,246,249);
+    margin-top: 0px;
+}
+.next .expertsection{
+    width: 475px;
+    height: 1184px;
+    margin: 0px 12px;
+    padding: 48px 16px;
+}
+.next .expertsection .experttext{
+    width: 443px;
+    height: 48px;
+    padding-bottom: 16px;
+    position: relative;
+}
+.next .expertsection .experttext h3{
+    width: 170px;
+    height: 32px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 24px;
+    font-weight: 90px;
+    line-height: 24px;
+    display: inline-block;
+}
+.next .expertsection .expertpictures{
+    width:467px;
+    margin-top: 0px;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+}
+.next .expertsection .expertpictures .expert1{
+    width: 443px;
+    height: 226px;
+    padding: 0px 0px 0px ;
+    margin: 10px 0px;
+}
+.next .expertsection .expertpictures .expert1 .discription{
+    width:313px;
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+    padding: 10px;
+    justify-content: center;
+}
+.next .expertsection .expertpictures .expert1 .discription  .tit {
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(17,24,39);
+    font-size:24px;
+    font-weight:400px;
+    line-height:27px;
+    margin: 8px 0px;
+}
+.next .expertsection .expertpictures .expert1 .discription .dis {
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(70, 57, 66);
+    font-size: 20px;
+    font-weight:50px;
+    line-height: 24px;
+    margin: 8px 0px;
+
+}
+}
+
+/* sixth page */
+
+.howworks {
+    width: 1328px;
+    height: 438px;
+    padding: 48px 16px;
+    margin: 0px 95px;
+}
+.howworks .how1{
+    width: 1296px;
+    height: 88px;
+    padding-top: 48px;
+    margin-bottom: 16px;
+}
+.howworks .how1 h3{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(12, 16, 27);
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 40px;
+    display: inline-block;
+
+}
+.howworks .how2{
+    width: 1296px;
+    height: 43px;
+    padding-bottom: 16px;
+}
+.howworks .how2 .h{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(68, 79, 90);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 27px;
+    display: inline-block;
+}
+.howworks .how3{
+    width: 1296px;
+    height: 179px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+.howworks .how3 .work{
+    width: 33%;
+
+}
+.howworks .how3 .work .eximg{
+    margin: 5px;
+    color: rgb(51,61,76);
+}
+.howworks .how3 .work h4{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(12, 16, 27);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.howworks .how3 .work .ex1{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(68, 79, 90);
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+/* ---------------sixth page media -----------*/
+
+@media (max-width: 500px) {
+    .howworks {
+        width: 499px;
+        height: 433px;
+        padding: 8px 16px;
+        margin: 0px 20px;
+    }
+    .howworks .how1{
+        width: 450px;
+        height: 80px;
+        padding-top: 48px;
+        margin-bottom: 16px;
+    }
+    .howworks .how1 h3{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(12, 16, 27);
+        font-size: 24px;
+    
+    }
+    .howworks .how2{
+        width: 430px;
+        height: 70px;
+        padding-bottom: 16px;
+        padding-top: 10px;
+    }
+    .howworks .how2 .h{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(68, 79, 90);
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 27px;
+        display: inline-block;
+    }
+    .howworks .how3{
+        width: 467px;
+        /* height: 179px; */
+        padding-bottom: 48px;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 10px;
+    }
+    .howworks .how3 .work{
+        width: 33%;
+        padding: 5px;
+    
+    }
+    .howworks .how3 .work h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(12, 16, 27);
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: block;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .howworks .how3 .work .ex1{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(68, 79, 90);
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+}
+@media (min-width: 501px) and (max-width: 767px) {
+    .howworks {
+        width: 475px;
+        height: 449px;
+        padding: 16px;
+        margin: 0px 20px;
+    }
+    .howworks .how1{
+        width: 443px;
+        height: 80px;
+        padding-top: 48px;
+        margin-bottom: 16px;
+    }
+    .howworks .how2{
+        width: 443px;
+        height: 70px;
+        padding-bottom: 16px;
+        padding-top: 10px;
+    }
+    .howworks .how2 .h{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(68, 79, 90);
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 27px;
+        display: inline-block;
+    }
+    .howworks .how3{
+        width: 445px;
+        /* height: 179px; */
+        padding-bottom: 48px;
+        display: flex;
+        flex-flow: row wrap;
+        margin-top: 10px;
+    }
+    .howworks .how3 .work{
+        width: 33%;
+        padding: 5px;
+    
+    }
+    .howworks .how3 .work h4{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(12, 16, 27);
+        font-size: 20px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: block;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .howworks .how3 .work .ex1{
+        font-family: "Inter Tight", sans-serif;
+        color: rgb(68, 79, 90);
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 5px;
+        
+    }
+}
+
+/* seventh page */
+.animat{
+    width: 1519px;
+    height: 561px;
+    background-color: rgb(61,122,129);
+    position: relative;
+}
+.animat .girl{
+    display: flex;
+    /* width: px; */
+    position: relative;
+}
+.animat .girl .girlimgg{
+    width: 760px;
+    height: 561px;
+    position: absolute;
+    right: 0px;
+    
+}
+.animat .grow{
+    width: 550px;
+    height: 257px;
+    margin: 144px 870px 160px 100px;
+    padding: 48px 12px;
+}
+.animat .grow h3{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(255,255,255);
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 40px;
+    display: inline-block;
+    margin-bottom: 18px;
+    /* padding-bottom: 16px; */
+}
+.animat .grow .b3{
+    width:172.8px ;
+    height: 49px;
+    background-color: rgb(216,81,81);
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(255,255,255);
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 18px;
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.animat .grow .b3::before{
+    content: "+";
+    margin-right: 10px;
+}
+.animat .grow .b3:hover{
+    background-color: rgb(162, 40, 40);
+}
+.animat .grow .b4{
+    width:157.6px ;
+    height: 49px;
+    background-color: rgb(61,122,129);
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(255,255,255);
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 18px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.animat .grow .b4::after{
+    content: ">";
+    margin-left: 10px;
+}
+.animat .grow .b4:hover{
+    background-color: white;
+    color: black;
+}
+.animat .position{
+    width: 164px;
+    height: 164px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+.animat .position .cirbig{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    border: 2px solid rgb(249,251,251);
+    
+}
+.animat .position .cirmiddle{
+    width: 87px ;
+    height: 87px;
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    border-radius: 50%;
+    border: 2px solid rgb(249,251,251);
+    
+}
+.animat .position .cirsmall{
+    width: 30px ;
+    height: 30px;
+    background-color: rgb(216,81,81);
+    position: absolute;
+    top:41%;
+    left: 39.9%;
+    border-radius: 50%;
+    
+}
+.animat .position .circle-text {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: spin 10s linear infinite;
+    }
+    
+    svg {
+    width: 100%;
+    height: 100%;
+    }
+    
+    textPath {
+    font-size: 16px;
+    font-weight: 400px;
+    fill:rgb(249,251,251); /* Text color */
+    }
+    @keyframes spin {
+            0% {
+            transform: rotate(0deg);
+            }
+            50% {
+            transform: rotate(180deg);
+            }
+            100% {
+            transform: rotate(360deg);
+            }
+            }
+
+             /* ---------------seven page media -----------*/
+
+             @media (max-width: 500px) {
+                .animat{
+                    width: 499px;
+                    height: 313px;
+                    background-color: rgb(61,122,129);
+                    padding: 20px 0px;
+                }
+                .animat .girl{
+                    display: none;
+                }
+                .animat .grow{
+                    width: 460px;
+                    height: 217px;
+                    margin: 30px 0px;
+                    padding:8px 0px;
+                    text-align: center;
+                }
+                .animat .grow h3{
+                    font-family: "Inter Tight", sans-serif;
+                    color: rgb(255,255,255);
+                    font-size: 25px;
+                    font-weight: 600px;
+                    line-height: 36px;
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    padding-left: 30px; 
+                }
+                .animat .grow .b3{
+                    width:467px ;
+                    height: 48px;
+                    font-size: 16px;
+                    font-weight: 500px;
+                    line-height: 18px;
+                    margin-left: 20px;
+                    margin-right:0px;
+                    margin-bottom: 12px;
+                }
+                .animat .grow .b4{
+                    width:467px ;
+                    height: 48px;
+                    font-size: 16px;
+                    font-weight: 500px;
+                    line-height: 18px;
+                    margin-left: 20px;
+                }
+                .animat .position{
+                    display: none;
+                    }
+            }
+
+             @media (min-width: 501px) and (max-width: 767px) {
+                .animat{
+                    width: 500px;
+                    height: 299px;
+                    background-color: rgb(61,122,129);
+                    padding: 20px;
+                }
+                .animat .girl{
+                    display: none;
+                }
+                .animat .grow{
+                    width: 375px;
+                    height: 193px;
+                    margin: 20px;
+                    padding:30px 5px;
+                }
+                .animat .grow h3{
+                    font-family: "Inter Tight", sans-serif;
+                    color: rgb(255,255,255);
+                    font-size: 24px;
+                    font-weight: 600px;
+                    line-height: 34px;
+                    display: inline-block;
+                    margin-bottom: 18px;
+                    padding-left: 50px;
+                    /* padding-bottom: 16px; */
+                }
+                .animat .grow .b3{
+                    width:160px ;
+                    height: 49px;
+                    background-color: rgb(216,81,81);
+                    font-family: "Inter Tight", sans-serif;
+                    color: rgb(255,255,255);
+                    font-size: 18px;
+                    font-weight: 500px;
+                    line-height: 18px;
+                    border-radius: 10px;
+                    margin-left: 30px;
+                    margin-right:0px;
+                }
+                .animat .grow .b4{
+                    width:154px ;
+                    height: 49px;
+                    background-color: rgb(61,122,129);
+                    font-family: "Inter Tight", sans-serif;
+                    color: rgb(255,255,255);
+                    font-size: 18px;
+                    font-weight: 500px;
+                    line-height: 18px;
+                    border: 1px solid white;
+                    border-radius: 10px;
+                }
+                .animat .position{
+                display: none;
+                }
+            }
+
+     /* eight page */
+.App{
+    width: 1328px;
+    margin: 16px 95px 0px 96px;
+    padding: 48px 16px;
+}
+.App .contains{
+    width: 1320px;
+    height: 323px;
+    background-color: rgb(251,238,238);
+    margin: 48px 0px 0px;
+    /* padding: 0px 12px 0px 12px; */
+}
+.App .contains .apppic{
+    display: flex;
+    position: relative;
+}
+.App .contains .apppic .appimgg{
+    width: 746px;
+    height: 323px;
+    position: absolute;
+    right: 0px;
+}
+.App .contains .appget{
+    width: 415px;
+    height: 200px;
+    padding: 24px 0px;
+    margin-top: 62px;
+    margin-left: 122px;
+}
+.App .contains .appget h3{
+    font-family: "Inter Tight", sans-serif;
+    Color:#111827;
+    font-size: 40px;
+    font-weight: 600px;
+    line-height: 48px;
+    display: inline-block;
+    margin-bottom: 8px;
+    cursor: default;
+}
+.App .contains .appget .dis1{
+    font-family: "Inter Tight", sans-serif;
+    Color:#4E5562;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    display: block;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+.App .contains .appget .bu5{
+    width: 141px;
+    height: 48px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 18px;
+    border-radius: 10px;
+    background-color: rgb(29,39,53);
+    color: rgb(255,255,255);
+    margin-left: 0px;
+    margin-right: 5px;
+    
+}
+#ii{
+    margin-right: 5px;
+}
+.App .contains .appget.bu5 .fa-apple{
+    font-size: 16px;
+    
+}
+.App .contains .appget .bu6{
+    width: 141px;
+    height: 48px;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 18px;
+    border-radius: 10px;
+    background-color: rgb(29,39,53);
+    color: rgb(255,255,255);
+    margin-left: 0px;
+    margin-right: 5px;
+}
+#playimg{
+    margin-right: 5px;
+}
+
+     /* ---------------eight page media -----------*/
+
+     @media (max-width: 500px) {
+        .App{
+            width: 499px;
+            margin: 0px 1px 0px 10px;
+            padding: 8px 10px 24px 8px ;
+        }
+        .App .contains{
+            width: 470px;
+            height: 470px;
+            border-radius: 10px;
+            background-color: rgb(251,238,238);
+            /* margin: 0px 0px 0px; */
+            /* padding: 0px ; */
+        }
+        .App .contains .apppic .appimgg{
+            width: 455px;
+            height: 180px;
+            position: absolute;
+            top: 287px;
+            left: 10px;
+        }
+        .App .contains .appget{
+            width: 419px;
+            height: 51px;
+            padding: 0px;
+            /* margin-top: 62px; */
+            margin-left: 20px;
+            text-align: center;
+        }
+        .App .contains .appget h3{
+            font-family: "Inter Tight", sans-serif;
+            Color:#111827;
+            font-size: 29px;
+            font-weight: 600px;
+            line-height: 35px;
+            display: inline-block;
+            margin-bottom:8px;
+            /* padding-left: 30px; */
+            cursor: default;
+        }
+        .App .contains .appget .dis1{
+            font-family: "Inter Tight", sans-serif;
+            Color:#4E5562;
+            font-size: 17px;
+            font-weight: 400px;
+            line-height: 24px;
+            display: block;
+            margin-bottom: 8px;
+            /* padding-left: 30px; */
+            cursor: default;
+        }
+        
+        .App .contains .appget .bu5{
+            width: 419px;
+            height: 48px;
+            font-family: "Inter Tight", sans-serif;
+            font-size: 17px;
+            font-weight: 500px;
+            line-height: 18px;
+            border-radius: 10px;
+            background-color: rgb(29,39,53);
+            color: rgb(255,255,255);
+            /* margin-left: 1px; */
+            /* margin-right: 5px; */
+            margin-bottom: 0px;
+            
+        }
+        .App .contains .appget .bu6{
+            width: 419px;
+            height: 48px;
+            font-family: "Inter Tight", sans-serif;
+            font-size: 17px;
+            font-weight: 500px;
+            line-height: 18px;
+            border-radius: 10px;
+            background-color: rgb(29,39,53);
+            color: rgb(255,255,255);
+            /* margin-left: 0px;
+            margin-right: 5px; */
+        }
+    }
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .App{
+        width: 487px;
+        margin: 0px 10px 0px 10px;
+        padding: 12px 12px 24px 12px ;
+    }
+    .App .contains{
+        width: 465px;
+        height: 400px;
+        background-color: rgb(251,238,238);
+        /* margin: 48px 0px 0px; */
+        /* padding: 0px 12px 0px 12px; */
+    }
+    .App .contains .apppic .appimgg{
+        width: 350px;
+        height: 150px;
+        position: absolute;
+        top: 250px;
+        left: 70px;
+    }
+    .App .contains .appget{
+        width: 415px;
+        height: 200px;
+        padding: 10px 0px;
+        /* margin-top: 62px; */
+        margin-left: 100px;
+    }
+    .App .contains .appget h3{
+        font-family: "Inter Tight", sans-serif;
+        Color:#111827;
+        font-size: 34px;
+        font-weight: 600px;
+        line-height: 35px;
+        display: inline-block;
+        margin-bottom:10px;
+        padding-left: 20px;
+        cursor: default;
+    }
+    .App .contains .appget .dis1{
+        font-family: "Inter Tight", sans-serif;
+        Color:#4E5562;
+        font-size: 18px;
+        font-weight: 400px;
+        line-height: 24px;
+        display: block;
+        margin-bottom: 8px;
+        padding-left: 20px;
+        cursor: default;
+    }
+    
+    .App .contains .appget .bu5{
+        width: 141px;
+        height: 48px;
+        font-family: "Inter Tight", sans-serif;
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 18px;
+        border-radius: 10px;
+        background-color: rgb(29,39,53);
+        color: rgb(255,255,255);
+        margin-left: 0px;
+        margin-right: 5px;
+        
+    }
+    .App .contains .appget .bu6{
+        width: 141px;
+        height: 48px;
+        font-family: "Inter Tight", sans-serif;
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 18px;
+        border-radius: 10px;
+        background-color: rgb(29,39,53);
+        color: rgb(255,255,255);
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+}
+
+/* ninth page */
+.pricing{
+    width: 1328px;
+    height: 607px;
+    margin: 16px 95px;
+    padding: 48px 16px;
+}
+.pricing .commontext{
+    width: 1296px;
+    height: 56px;
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.pricing .commontext h3{
+    font-family: "Inter Tight", sans-serif;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 40px;
+    color:#111827;
+    display: inline-block;
+}
+.pricing .commontext .vv{
+    font-family: "Inter Tight", sans-serif;
+    color: rgb(57,67,76);
+    font-size: 18px;
+    font-weight:400px;
+    line-height: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 4px;
+}
+.pricing .commontext .vv:hover{
+    text-decoration:underline;
+}
+.pricing .commontext .vv::after{
+    content: ">";
+    padding: 5px;
+    
+}
+.pricing .commonpictures{
+    width: 1320px;
+    height: 455px;
+    display: flex;
+    flex-flow: row wrap;
+    cursor: pointer;
+    
+}
+.pricing .commonpictures .pricing11{
+    width: 640px;
+    height: 179px;
+    margin: 0px 20px 0px 0px ;
+    border: 1px solid rgb(229,229,229);
+    border-radius: 10px;
+}
+.pricing .commonpictures .pricing11 .cp1{
+    width: 209.6px;
+    height: 176.8px;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.pricing .commonpictures .pricing11 .cp1:hover{
+    padding: 1px;
+}
+.pricing .commonpictures .pricing11 .detailss{
+    margin-left: 5px;
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    justify-content: center;
+}
+.pricing .commonpictures .pricing11 .detailss .deta{
+    font-family: "Inter Tight", sans-serif;
+    color: #111827;
+    font-size: 16px;
+    font-weight:600px;
+    line-height: 22px;
+    margin: 5px 0px;
+}
+.pricing .commonpictures .pricing11 .detailss .deta:hover{
+    text-decoration:underline;
+}
+.pricing .commonpictures .pricing11 .detailss .rate{
+    display: block;
+    color:rgb(65,74,88);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+.pricing .commonpictures .pricing11 .detailss .rate span{
+    color: rgb(129,134,145);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 20px;
+    margin: 5px 10px 5px 5px;
+}
+.pricing .commonpictures .pricing11 .detailss #book2{
+    width: 90px;
+    height: 39px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30,40,54);
+    border: 1px solid rgb(29,39,53);
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 30px 0px 20px;
+}
+.pricing .commonpictures .pricing11 .detailss #book2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(30,40,54);
+}
+
+     /* ---------------nine page media -----------*/
+
+     @media (max-width: 500px) {
+        .pricing{
+            width: 499px;
+            height: 1500px;
+            margin: 10px 8px;
+            padding:8px;
+        }
+        .pricing .commontext{
+            width: 467px;
+            height: 48px;
+            padding-bottom: 6px;
+            margin-bottom: 5px;
+            position: relative;
+        }
+        .pricing .commontext h3{
+            font-family: "Inter Tight", sans-serif;
+            font-size: 24px;
+            font-weight: 400px;
+            line-height: 24px;
+            color:#111827;
+            display: inline-block;
+        }
+        .pricing .commontext .vv{
+            font-family: "Inter Tight", sans-serif;
+            color: rgb(57,67,76);
+            font-size: 16px;
+            font-weight:400px;
+            line-height: 24px;
+            display: inline-block;
+            position: absolute;
+            right: 4px;
+        }
+        .pricing .commonpictures{
+            width: 470px;
+            height:1460px;
+            display: flex;
+            flex-flow: row wrap;
+            cursor: pointer;
+            
+        }
+        .pricing .commonpictures .pricing11{
+            width: 470px;
+            height: 329px;
+            margin: 0px 20px 1px 0px ;
+            border: 1px solid rgb(229,229,229);
+            border-radius: 10px;
+        }
+        .pricing .commonpictures .pricing11 .cp1{
+            width: 470px;
+            height: 180px;
+            border-radius: 5px;
+            padding: 0.3px;
+            display: inline-block;
+            
+        }
+        .pricing .commonpictures .pricing11 .detailss{
+            margin-left: 5px;
+            display: inline-block;
+            position: absolute;
+            padding: 10px;
+            justify-content: center;
+        }
+        .pricing .commonpictures .pricing11 .detailss .deta{
+            font-size: 16px;
+            font-weight:bold;
+        }
+        .pricing .commonpictures .pricing11 .detailss #book2{
+            width: 110px;
+            height: 39px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(30,40,54);
+            border: 1px solid rgb(29,39,53);
+            border-radius: 10px;
+            font-size: 16px;
+            padding: 10px 10px;
+            margin: 10px 0px 20px;
+        }
+    }
+
+     @media (min-width: 501px) and (max-width: 767px) {
+        .pricing{
+            width: 475px;
+            height: 988px;
+            margin: 20px 12px;
+            padding:16px;
+        }
+        .pricing .commontext{
+            width: 443px;
+            height: 80px;
+            padding-bottom: 10px;
+            margin-bottom: 0px;
+            position: relative;
+        }
+        .pricing .commontext h3{
+            font-family: "Inter Tight", sans-serif;
+            font-size: 26px;
+            font-weight: 400px;
+            line-height: 32px;
+            color:#111827;
+            display: inline-block;
+        }
+        .pricing .commontext .vv{
+            font-family: "Inter Tight", sans-serif;
+            color: rgb(57,67,76);
+            font-size: 16px;
+            font-weight:400px;
+            line-height: 24px;
+            display: inline-block;
+            position: absolute;
+            right: 4px;
+        }
+        .pricing .commonpictures{
+            width: 487px;
+            height: 882px;
+            display: flex;
+            flex-flow: row wrap;
+            cursor: pointer;
+            
+        }
+        .pricing .commonpictures .pricing11{
+            width: 640px;
+            height: 190px;
+            margin: 0px 20px 0px 0px ;
+            border: 1px solid rgb(229,229,229);
+            border-radius: 10px;
+        }
+        .pricing .commonpictures .pricing11 .cp1{
+            width: 170px;
+            height: 190px;
+            border-radius: 10px;
+            display: inline-block;
+            
+        }
+        .pricing .commonpictures .pricing11 .detailss #book2{
+            width: 101px;
+            height: 39px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(30,40,54);
+            border: 1px solid rgb(29,39,53);
+            border-radius: 10px;
+            padding: 10px 10px;
+            margin: 30px 0px 20px;
+        }
+    
+    }
+    
+/* tenth page */
+footer{
+    width: 1519px;
+    height: 647px;
+    background-color: rgb(17,24,39);
+}
+footer .footbody{
+    width: 1329px;
+    height: 647px;
+    margin: 0px 95px;
+    padding: 0px 16px 8px;
+}
+footer .footbody .first{
+    width: 1296px;
+    height: 136px;
+    padding: 48px 0px ;
+    border-bottom: 1px solid rgb(51,61,76);
+    display: flex;
+    position: relative;
+}
+footer .footbody .first .left{
+    width: 437px;
+    height: 39px;
+    position: absolute;
+    left: 0px;
+}
+footer .footbody .first .left .fa-envelope{
+    color: rgb(202,208,217);
+    font-size: 24px;
+    font-weight: 400px;
+} 
+footer .footbody .first .left h5{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 27px;
+    margin-left: 12px;
+    display: inline-block;
+} 
+footer .footbody .first .left .sub{
+    width: 109px;
+    height: 39px;
+    display: inline-block;
+    margin-left: 20px;
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 2px;
+} 
+
+footer .footbody .first .right{
+    position: absolute;
+    right: 0px;
+}
+footer .footbody .first .right .need{
+    color:rgb(156,163,175);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 27px;
+    margin-right: 24px;
+    display: inline-block;
+}
+footer .footbody .first .right h5{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 27px;
+    display: inline-block;
+}
+footer .footbody .second{
+    width: 1320px;
+    height: 303px;
+    padding: 48px 0px 0px ;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+footer .footbody .second .sec1{
+    width: 4550px;
+    height: 255px;
+    width: 25%;
+    position: absolute;
+    left: 0px;
+}
+footer .footbody .second .sec1 .fa-magnifying-glass{
+    color: white;
+    background-color: rgb(216,81,81);
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 24px;
+    font-weight: 600px;
+}
+footer .footbody .second .sec1 h4{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 36px;
+    display: inline-block;
+    cursor: pointer;
+}
+footer .footbody .second .sec1 .find{
+    font-family: "Inter Tight", sans-serif;
+    Color: rgb(147,163,175);
+    font-size: 17px;
+    font-weight: 100px;
+    line-height: 20px;
+    display: inline-block;
+}
+footer .footbody .second .sec1 .fa-instagram,.fa-facebook,.fa-x-twitter{
+    color: #E0E5EB;
+    background-color: rgb(51,61,76);
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 400px;
+    margin:  30px 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+footer .footbody .second .sec2{
+    width: 439px;
+    height: 255px;
+    position: absolute;
+    left: 45%;
+}
+footer .footbody .second .sec2 h4{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 36px;
+    display: block;
+}
+footer .footbody .second .sec2 .cat{
+    color: rgb(202,208,217);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 20px 110px 0px 0px;
+    cursor: pointer;
+}
+footer .footbody .second .sec2 .cat:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer .footbody .second .sec3{
+    width: 219px;
+    height: 255px;
+    position: absolute;
+    right: 0px;
+}
+footer .footbody .second .sec3 h4{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 24px;
+    font-weight: 600px;
+    line-height: 36px;
+    display: block;
+}
+footer .footbody .second .sec3 .comp{
+    color: rgb(202,208,217);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 20px;
+    display: inline-block;
+    margin: 10px 50px 10px 0px;
+    cursor: pointer;
+}
+footer .footbody .second .sec3 .comp:hover{
+    text-decoration: underline;
+    color: white;
+}
+footer .footbody .third{
+    width: 1296px;
+    height: 87px;
+    padding-top: 48px;
+    display: flex;
+}
+footer .footbody .third h4{
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 60px;
+    margin-right: 10px;
+    display: inline-block;
+}
+footer .footbody .third .bu9{
+    width: 105px;
+    height: 39px;
+    padding: 8px 7px;
+    margin: 8px;
+    display: inline-block;
+    font-family: "Inter Tight", sans-serif;
+    Color: white;
+    background-color: rgb(17,24,39);
+    border: 1px solid rgb(51,61,76);
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 2px;
+}
+footer .footbody .third .bu9:hover{
+    border: 1px solid rgb(116, 119, 124);
+}
+footer .footbody .fourth{
+    width: 1296px;
+    height: 112px;
+    padding-top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    position: relative;
+}
+footer .footbody .fourth .copy{
+    position: absolute;
+    left: 0px;
+    
+}
+footer .footbody .fourth .copy .fa-copyright{
+    color: rgb(156,163,163);
+    font-size: 12px;
+    font-weight: 400px;
+    margin:  0px 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+footer .footbody .fourth .copy .nam{
+    color: rgb(156,163,163);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+    display: inline-block;
+}
+footer .footbody .fourth .copy a{
+    text-decoration: none;
+    color: rgb(202,208,205);
+    font-family: "Inter Tight", sans-serif;
+    font-size: 16px;
+    font-weight: 400px;
+    cursor: pointer;
+    display: inline-block;
+}
+footer .footbody .fourth .copy a:hover{
+    text-decoration: underline;
+}
+footer .footbody .fourth .cash{
+    position: absolute;
+    right: 0px;
+} 
+footer .footbody .fourth .cash .fa-cc-visa,.fa-cc-mastercard,.fa-cc-paypal,.fa-google-pay,.fa-apple-pay{
+    color: white;
+    font-size: 25px;
+    font-weight: 400px;
+    margin:  0px 15px;
+    /* padding: 10px; */
+    cursor: pointer;
+    display: inline-block;
+}
+
+/* ---------------ten page media -----------*/
+
+@media (max-width: 500px) {
+    footer{
+        width: 499px;
+        height: 1060px;
+        background-color: rgb(17,24,39);
+    }
+    footer .footbody{
+        width: 491px;
+        height: 890px;
+        margin: 0px 10px;
+        padding: 0px 10px;
+    }
+    footer .footbody .first{
+        width:460px;
+        height: 195px;
+        padding: 48px 0px ;
+        border-bottom: 1px solid rgb(51,61,76);
+        display: flex;
+        position: relative;
+    }
+    footer .footbody .first .left{
+        width: 467px;
+        height: 77px;
+        position: absolute;
+        left: 0px;
+        text-align: center;
+    }
+    footer .footbody .first .left .fa-envelope{
+        font-size: 18px;
+
+    } 
+    footer .footbody .first .left h5{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 18px;
+        font-weight: 600px;
+        line-height: 27px;
+        margin-left: 12px;
+        display: inline-block;
+    }
+    footer .footbody .first .left .sub{
+        width: 109px;
+        height: 39px;
+        display: inline-block;
+        margin-left: 50px;
+        position: absolute;
+        bottom: -20px;
+        right: 180px;
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 2px;
+    } 
+    
+    footer .footbody .first .right{
+        position: absolute;
+        bottom: 20px;
+        left: 0px;
+        text-align: center;
+    }
+    footer .footbody .second{
+        width: 487px;
+        height: 519px;
+        padding: 48px 0px 0px ;
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
+    footer .footbody .second .sec1{
+        width: 487px;
+        height:148px;
+        width: 60%;
+        position: absolute;
+        left: 0px;
+        top: 20px;
+    }
+    footer .footbody .second .sec1 .fa-magnifying-glass{
+        color: white;
+        background-color: rgb(216,81,81);
+        padding: 5px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+    footer .footbody .second .sec1 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 22px;
+        font-weight: 600px;
+        line-height: 32px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec1 .find{
+        font-family: "Inter Tight", sans-serif;
+        Color: rgb(147,163,175);
+        font-size: 16px;
+        font-weight: 100px;
+        line-height: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
+    footer .footbody .second .sec1 .fa-instagram,.fa-facebook,.fa-x-twitter{
+        color: #E0E5EB;
+        background-color: rgb(51,61,76);
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 400px;
+        margin:  20px 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec2{
+        width: 467px;
+        height: 150px;
+        position: absolute;
+        left:0px;
+        top: 42%;
+        
+    }
+    footer .footbody .second .sec2 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 20px;
+        font-weight: 600px;
+        line-height: 27px;
+        display: block;
+    }
+    footer .footbody .second .sec2 .cat{
+        color: rgb(202,208,217);
+        font-family: "Inter Tight", sans-serif;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 10px 20px 0px 0px;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec3{
+        width: 450px;
+        height: 100px;
+        position: absolute;
+        left: 0px;
+        top: 72%;
+        border-top: 1px solid rgb(51,61,76);
+        padding-top: 10px;
+    }
+    footer .footbody .second .sec3 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 20px;
+        font-weight: 600px;
+        line-height: 27px;
+        display: block;
+    }
+    footer .footbody .second .sec3 .comp{
+        color: rgb(202,208,217);
+        font-family: "Inter Tight", sans-serif;
+        font-size: 14px;
+        font-weight: 400px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 10px 50px 0px 0px;
+        cursor: pointer;
+    }
+    footer .footbody .third{
+        width: 467px;
+        height: 200px;
+        padding-top: 0px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: start;
+        }
+        footer .footbody .third h4{
+            font-family: "Inter Tight", sans-serif;
+            Color: white;
+            font-size: 20px;
+            font-weight: 600px;
+            line-height: 27px;
+            margin: 0 0 10px 0;
+            grid-column: span 4;
+            display: inline-block;
+        }
+        footer .footbody .third .bu9{
+            width: 90px;
+            height: 39px;
+            padding: 8px 7px;
+            margin: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Inter Tight", sans-serif;
+            Color: white;
+            background-color: rgb(17,24,39);
+            border: 1px solid rgb(51,61,76);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 400px;
+            line-height: 22px;
+        }
+        footer .footbody .fourth{
+            width: 467px;
+            height: 141px;
+        }
+        footer .footbody .fourth .copy{
+            position: absolute;
+            left: 60px;
+            bottom: 20px;
+            
+        }
+        
+        footer .footbody .fourth .cash{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        } 
+    }
+@media (min-width: 501px) and (max-width: 767px) {
+    footer{
+        width: 500px;
+        height: 1070px;
+        background-color: rgb(17,24,39);
+    }
+    footer .footbody{
+        width: 475px;
+        height: 1089px;
+        margin: 0px 12px;
+        padding: 0px 16px;
+    }
+    footer .footbody .first{
+        width: 443px;
+        height: 150px;
+        padding: 48px 0px ;
+        border-bottom: 1px solid rgb(51,61,76);
+        display: flex;
+        position: relative;
+    }
+    footer .footbody .first .left{
+        width: 302px;
+        height: 27px;
+        position: absolute;
+        left: 0px;
+    }
+    footer .footbody .first .left .fa-envelope{
+        color: rgb(202,208,217);
+        font-size: 21px;
+        font-weight: 400px;
+    } 
+    footer .footbody .first .left h5{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 20px;
+        font-weight: 600px;
+        line-height: 27px;
+        margin-left: 12px;
+        display: inline-block;
+    }
+    footer .footbody .first .left .sub{
+        width: 109px;
+        height: 39px;
+        display: inline-block;
+        margin-left: 50px;
+        position: absolute;
+        bottom: -20px;
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 2px;
+    } 
+    
+    footer .footbody .first .right{
+        position: absolute;
+        bottom: 20px;
+        left: 100px;
+    }
+    footer .footbody .second{
+        width: 487px;
+        height: 519px;
+        padding: 48px 0px 0px ;
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
+    footer .footbody .second .sec1{
+        width: 487px;
+        height:148px;
+        width: 50%;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+    }
+    footer .footbody .second .sec1 .fa-magnifying-glass{
+        color: white;
+        background-color: rgb(216,81,81);
+        padding: 5px;
+        border-radius: 50px;
+        font-size: 18px;
+        font-weight: 400px;
+    }
+    footer .footbody .second .sec1 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 22px;
+        font-weight: 600px;
+        line-height: 32px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec1 .find{
+        font-family: "Inter Tight", sans-serif;
+        Color: rgb(147,163,175);
+        font-size: 16px;
+        font-weight: 100px;
+        line-height: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
+    footer .footbody .second .sec1 .fa-instagram,.fa-facebook,.fa-x-twitter{
+        color: #E0E5EB;
+        background-color: rgb(51,61,76);
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 400px;
+        margin:  20px 5px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec2{
+        width: 311px;
+        height: 275px;
+        position: absolute;
+        left:10px;
+        top: 45%;
+    }
+    footer .footbody .second .sec2 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 22px;
+        font-weight: 600px;
+        line-height: 27px;
+        display: block;
+    }
+    footer .footbody .second .sec2 .cat{
+        color: rgb(202,208,217);
+        font-family: "Inter Tight", sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 20px 50px 0px 0px;
+        cursor: pointer;
+    }
+    footer .footbody .second .sec3{
+        width: 131px;
+        height: 275px;
+        position: absolute;
+        right: 0px;
+        top: 45%;
+    }
+    footer .footbody .second .sec3 h4{
+        font-family: "Inter Tight", sans-serif;
+        Color: white;
+        font-size: 22px;
+        font-weight: 600px;
+        line-height: 27px;
+        display: block;
+    }
+    footer .footbody .second .sec3 .comp{
+        color: rgb(202,208,217);
+        font-family: "Inter Tight", sans-serif;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 20px;
+        display: inline-block;
+        margin: 10px 50px 0px 0px;
+        cursor: pointer;
+    }
+    footer .footbody .third{
+        width: 443px;
+        height: 229px;
+        padding-top: 48px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: start;
+        }
+        footer .footbody .third h4{
+            font-family: "Inter Tight", sans-serif;
+            Color: white;
+            font-size: 20px;
+            font-weight: 600px;
+            line-height: 27px;
+            margin: 0 0 10px 0;
+            grid-column: span 4;
+            display: inline-block;
+        }
+        footer .footbody .third .bu9{
+            width: 90px;
+            height: 39px;
+            padding: 8px 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Inter Tight", sans-serif;
+            Color: white;
+            background-color: rgb(17,24,39);
+            border: 1px solid rgb(51,61,76);
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 400px;
+            line-height: 22px;
+        }
+        footer .footbody .fourth{
+            width: 350px;
+            height: 141px;
+        }
+        footer .footbody .fourth .copy{
+            position: absolute;
+            left: 40px;
+            bottom: 0px;
+            
+        }
+        
+        footer .footbody .fourth .cash{
+            position: absolute;
+            top: 80px;
+            left: 30px;
+        } 
+    }
